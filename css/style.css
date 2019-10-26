@@ -156,3 +156,127 @@ html,body{
 	text-align: center;
 	color:#fff;
 }
+.fourthsection{
+	padding:80px 0;
+}
+.fourthsection .mainimg{
+	float:left;
+	width: 50%;
+	margin-right: 15px;
+	height: 615px;
+	margin-bottom:10px;
+}
+.fourthsection p{
+	color:#fff;
+}
+.fourthsection h3{
+	color:#fff;
+	text-transform: uppercase;
+	margin:0 0 30px;
+}
+.fourthsection .phead{
+	color:#676767;
+}
+.fourthsection .rightimg,
+.fourthsection .thirdimg{
+	height: 300px;
+	margin-bottom:15px;
+	margin-left:52%;
+}
+.fourthsection .lastimg{
+	height: 300px;
+	margin-bottom:15px;
+}
+.fourthsection .wrap{
+	padding:40px;
+}
+.testi{
+	padding:80px 0;
+	background: #ffe2d2;
+}
+.testi .wraptesti{
+	background: #fff;
+	border-radius: 40px;
+	padding:30px;
+}
+.testi h2{
+	margin:0 0 40px;
+	color:#7b7b7b;
+}
+.testi p{
+	font-size: 16px;
+	line-height: 25px;
+	color:#7b7b7b;
+}
+.testi h3{
+	margin:0 0 5px;
+}
+.testi .quote{
+	display: block;
+	margin:0 auto;
+	    position: relative;
+}
+.testi .quote i.fa{
+	font-size: 44px;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: block;
+    background: #6dc9c9;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 85px;
+}
+.testi .pos{
+	position: absolute;
+	width: 100%;
+}
+.newsletter{
+	padding:80px 0;
+}
+.newsletter .wrapform{
+	    border-radius: 40px;
+    box-shadow: 0 10px 10px #b3b3b3;
+    padding: 80px 40px;
+}
+.newsletter h3{
+	margin:0 0 20px;
+}
+.newsletter form{
+	text-align: center;
+}
+.newsletter form input[type=email]{
+	height: 38px;
+	border-radius: 40px;
+	padding:0 15px;
+	outline: 0;
+	border: 1px solid #909090;
+}
+.newsletter form input[type=submit]{
+	background: #eba95b;
+	border-radius: 40px;
+	color:#fff;
+	height: 38px;
+	padding:0 25px;
+	border:none;
+}
+.footer{
+	padding:10px auto;
+}
+.footer ul li{
+	list-style-type: none;
+}
+.footer ul li a{
+	display: block;
+	text-decoration: none;
+	color:#868686;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.footer ul li a:hover{
+	color:#000;
+}
+.footer p{
+	color:#868686;
+}
