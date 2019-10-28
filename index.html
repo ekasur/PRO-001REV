@@ -16,6 +16,13 @@
       <div class="row">
         <div class="col-lg-2">
           <img src="images/logo.jpg" class="img-fluid" alt="REVIVE">
+          <div class="barmenu">
+              <a href="#" class="menu">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+              </a>
+          </div>
         </div>
         <div class="col-lg-8">
           <ul class="mainmenu">
@@ -265,5 +272,13 @@
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).on('ready', function(){
+            $('.barmenu a').on('click', function(){
+                $('ul.mainmenu').toggleClass('mainmenuopen');
+                $('ul.rightmenu').toggleClass('rightmenuopen');
+            })
+        })
+    </script>
   </body>
 </html>
