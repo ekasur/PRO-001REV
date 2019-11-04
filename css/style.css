@@ -121,8 +121,105 @@ html,body{
 	text-align: center;
 	color:#fff;
 }
+.wraptextbanner h3.monthly{
+	border:1px solid #fff;
+	padding:10px 0;
+}
 .wraptextbanner p.psmall{
 	font-size: 14px;
+}
+.mcfirst{
+	padding:80px 0;
+}
+.mcfirst img{
+	display: block;
+	margin:0 auto 50px;
+}
+.mcfirst h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	text-align: center;
+	margin:20px 0;
+}
+.mcfirst p{
+	text-align: center;
+	font-size: 14px;
+	margin:0;
+}
+.mcfirst .atag{
+	margin:50px 0 0;
+}
+.mcfirst .atag a{
+	    display: block;
+    width: 200px;
+    text-align: center;
+    background: #EBA95B;
+    border-radius: 25px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+}
+.mcfirst .atag a:hover{
+	background: #e8b578;
+}
+.mcfirstbgcolor{
+	background: #FFE2D2;
+}
+.mcfirstbgcolor h2{
+	color:#9F9792;
+}
+.mcfirstbgcolor p{
+	color:#9F9792;
+}
+.why{
+	padding:80px 0;
+}
+.why h2{
+	font-size: 80px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin:0 0 50px 50px;
+}
+.why h2:before{
+	content: "";
+    width: 300px;
+    height: 600px;
+    background: #A5D8D8;
+    position: absolute;
+    z-index: -1;
+    left: -50px;
+    top: -82px;
+}
+.why img{
+	display: block;
+	margin:0 auto;
+}
+.secfasting{
+	padding:80px 0;
+	background: #F6F6F6;
+}
+.secfasting h2{
+	font-size: 60px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+.secfasting .line{
+	width: 50px;
+	height: 3px;
+	background: #A5D8D8;
+	margin:25px 0;
+}
+.secfasting img{
+	margin-bottom:25px;
+}
+.secfasting ul{
+	margin:0 0 0 15px;
+	padding:0;
+}
+.secfasting ul li{
+	font-size: 16px;
+	padding:5px 0;
 }
 .banner .sosmed{
 	position: absolute;
@@ -212,6 +309,23 @@ html,body{
 	font-size: 14px;
 	padding:0;
 	margin:0;
+}
+.programstart .atag{
+	margin-top:50px;
+}
+.programstart .atag a {
+    display: block;
+    width: 200px;
+    text-align: center;
+    background: #EBA95B;
+    border-radius: 25px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+}
+.programstart .atag a:hover{
+	background: #e8b578;
 }
 .programone .wrap .imgplace{
 	height: 500px;
