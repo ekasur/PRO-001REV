@@ -79,6 +79,9 @@ html,body{
 .bannerhalf{
 	height: 300px;
 }
+.morehalf{
+	height: 400px !important;
+}
 .tb{
 	display: table;
 	width: 100%;
@@ -124,6 +127,11 @@ html,body{
 .wraptextbanner h3.monthly{
 	border:1px solid #fff;
 	padding:10px 0;
+}
+.wraptextbanner h3.titlemorehalf {
+    border: none;
+    padding: 10px 0;
+    font-size: 32px;
 }
 .wraptextbanner p.psmall{
 	font-size: 14px;
@@ -175,6 +183,9 @@ html,body{
 .why{
 	padding:80px 0;
 }
+.whycustom{
+	padding:150px 0 80px;
+}
 .why h2{
 	font-size: 80px;
 	font-family: 'Playfair Display', serif;
@@ -194,6 +205,57 @@ html,body{
 .why img{
 	display: block;
 	margin:0 auto;
+}
+.why .labelstep{
+	color:#A5D8D8;
+}
+.why h3{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 35px;
+}
+.why .line{
+	width: 40px;
+	height: 2px;
+	background: #A5D8D8;
+	margin:20px 0;
+}
+.chooseindividual{
+	padding:80px 0;
+	background: #FFE2D2;
+}
+.chooseindividualwhite{
+	padding:80px 0;
+	background: #FFF;
+}
+.chooseindividual .labelstep,
+.chooseindividualwhite .labelstep{
+	color:#A5D8D8;
+}
+.chooseindividual h3,
+.chooseindividualwhite h3{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 35px;
+}
+.chooseindividual .line,
+.chooseindividualwhite .line{
+	width: 40px;
+	height: 2px;
+	background: #A5D8D8;
+	margin:20px 0;
+}
+.chooseindividualwhite .atag a {
+    display: block;
+    background: #EBA95B;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
 }
 .secfasting{
 	padding:80px 0;
