@@ -94,15 +94,16 @@ html,body{
 	vertical-align: middle;
 }
 .wraptextbanner{
-	width: 580px;
+	width: 620px;
 	display: block;
 	margin:0 auto;
 }
 .wraptextbanner h1{
+	font-family: 'Playfair Display', serif;
 	font-size: 42px;
 	text-align: center;
 	color:#fff;
-	font-weight: 700;
+	font-weight: 400;
 }
 .wraptextbanner h2{
 	font-size: 38px;
@@ -521,9 +522,16 @@ html,body{
 .fourthsection p{
 	color:#fff;
 }
+.fourthsection h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 40px;
+}
 .fourthsection h3{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
 	color:#fff;
-	text-transform: uppercase;
+	font-size: 35px;
 	margin:0 0 30px;
 }
 .fourthsection .phead{
@@ -685,6 +693,9 @@ html,body{
 	color:#868686;
 }
 @media only screen and (max-width: 991px){
+	.wraptextbanner{
+		width: 95%;
+	}
 	.bannerlogin .row .col-lg-6 {
 	    height: auto;
 	}
