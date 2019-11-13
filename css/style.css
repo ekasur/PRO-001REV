@@ -11,6 +11,9 @@
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 }
+p{
+	color:#C4C4C4;
+}
 .space{
 	height: 40px;
 }
@@ -485,7 +488,15 @@ html,body{
 
 }
 .bgsquare{
-	height: 400px;
+	height: 600px;
+	width: 600px;
+}
+.bgsquare .caption{
+	position: absolute;
+	bottom:10px;
+	left:10px;
+	color:#fff;
+	font-style: italic;
 }
 .wraptext{
 	padding:40px;
