@@ -12,7 +12,7 @@
 	font-weight: 400;
 }
 p{
-	color:#C4C4C4;
+	color:#7b7b7b;
 }
 .space{
 	height: 40px;
@@ -529,6 +529,9 @@ html,body{
 	margin-right: 15px;
 	height: 615px;
 	margin-bottom:10px;
+
+  	filter: blur(4px);
+  	-webkit-filter: blur(4px);
 }
 .fourthsection p{
 	color:#fff;
@@ -558,8 +561,13 @@ html,body{
 	height: 300px;
 	margin-bottom:15px;
 }
+.fourthsection .wraptext{
+	position: relative;
+}
 .fourthsection .wrap{
-	padding:40px;
+	    padding: 40px;
+    position: absolute;
+    width: 50%;
 }
 .bannerlogin{
 	width: 100%;
