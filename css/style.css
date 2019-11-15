@@ -952,3 +952,30 @@ html,body{
 	
 
 }
+
+@media only screen and (max-width:620px){
+	.fourthsection .mainimg1 .mainimg,
+	.fourthsection .mainimg2 .mainimg,
+	.fourthsection .mainimg3 .mainimg {
+		height: 500px;
+	}
+	.newsletter form input[type="email"]{
+		width:100%;
+		margin-bottom:10px;
+	}
+	.newsletter .wrapform{
+		padding:10px;
+	}
+	.wraptext {
+		padding: 10px;
+	}
+	.wraptextbanner h1{
+		font-size:25px;
+	}
+	.wraptextbanner p{
+		font-size:14px;
+	}
+	.banner .sosmed{
+		bottom:0;
+	}
+}
