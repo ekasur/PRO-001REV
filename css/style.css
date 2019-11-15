@@ -844,6 +844,51 @@ html,body{
 	.wraptextbanner{
 		width: 95%;
 	}
+	.bgsquare {
+
+    	height: 400px;
+    	width: 100%;
+
+	}
+	.fourthsection p{
+		font-size: 16px;
+	}
+	.fourthsection h3{
+		font-size: 35px;
+	}
+	.testi .atag {
+
+	    margin-top: 0;
+
+	}
+	.testi .moretesti {
+
+	    margin-top: 0;
+
+	}
+	.fourthsection .atag {
+
+	    margin-top: 20px;
+
+	}
+	.fourthsection .mainimg1 .mainimg{
+		height: 300px;
+	}
+	.fourthsection .mainimg1 {
+
+	    position: relative;
+	    float: none;
+	    width: 100%;
+	    margin-bottom:20px;
+
+	}
+	.fourthsection .mainimg2 {
+
+    float: none;
+    width: 100%;
+    position: relative;
+
+}
 	.bannerlogin .row .col-lg-6 {
 	    height: auto;
 	}
