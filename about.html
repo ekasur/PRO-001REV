@@ -100,10 +100,12 @@ Having been in the health and wellness industry for over 35 years and spent year
     			<div class="col-lg-12">
     				<ul class="nav justify-content-center">
 					  <li class="nav-item">
-					    <a class="nav-link singleprog" href="#">Single Program</a>
+					    <a class="nav-link singleprog" href="#">Single <br>Program</a>
 					  </li>
+					  <li>&nbsp;</li>
 					  <li class="nav-item">
-					    <a class="nav-link 9monthprog" href="#">9 Months Program</a>
+					    <a class="nav-link ninemonthprog" href="#">PAY ONLY 3 MONTH <br>FOR 6 MONTH
+</a>
 					  </li>
 					</ul>
     			</div>
@@ -112,26 +114,63 @@ Having been in the health and wellness industry for over 35 years and spent year
     </div>
 
 
-    <div class="hide" id="singleprog">
-    	<h1>SINGLE PROGRAM</h1>
+    <div class="flowprogram hide" id="singleprog">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-12">
+    				<h3>SINGLE PROGRAM</h3>
+
+			    	<ul>
+			    		<li><span>7 Days Juice Journey</span><label>AUD $24.<sup>50</sup></label></li>
+			    		<li><span>Intermitten Fasting</span><label>AUD $17.<sup>00</sup></label></li>
+			    		<li><span>3 Days Detox ( Free for limited time )</span><label>AUD $24.<sup>50</sup></label></li>
+			    		<li><span>Elimination Program</span><label>AUD $29.<sup>95</sup></label></li>
+			    	</ul>
+    			</div>
+    		</div>
+    	</div>
+    	
     </div>
 
-    <div class="hide" id="9monthprog">
-    	<h1>9 Months PROGRAM</h1>
+    <div class="flowprogram hide" id="ninemonthprog">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-12">
+    				<h3>ALL PROGRAMS</h3>
+
+			    	<ul>
+			    		<li><span>7 Days Juice Journey</span><label>AUD $24.<sup>50</sup></label></li>
+			    	</ul>
+    			</div>
+    		</div>
+    	</div>
     </div>
 
-    <div class="joinnow" style="background:url(https://via.placeholder.com/1920) no-repeat center center;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;">
+
+
+    <div class="aboutquote" style="background:url(images/bg1.jpg) no-repeat center center;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2">
-					<h3>Join now and get 6 months REVIVE membership for price of 3!</h3>
-					<div class="atag">
-						<a href="#">START NOW</a>
-					</div>
+					<p>Just as if you have a personal nutritionist 
+and lifestyle coach in your own home, REVIVE'S programs will guide your health and happiness to a higher level.</p>
 				</div>
 			</div>
 		</div>
    	</div>
+
+
+   	<div class="staybutton">
+		<div class="container">
+			<div class="row">
+				<div class="atag">
+					<a href="#">PURCHASE NOW</a>
+				</div>
+			</div>
+		</div>
+   	</div>
+
+
 
     <div class="newsletter">
       <div class="container">
@@ -139,7 +178,7 @@ Having been in the health and wellness industry for over 35 years and spent year
             <div class="col-lg-6 offset-lg-3">
                 <div class="wrapform">
                   <h3 class="text-center">GET 3 DAYS DETOX for FREE</h3>
-                  <p class="text-center">Lorem ipsum dolorsum Lorem ipsum dolorsum Lorem ipsum dolorsum Lorem ipsum </p>
+                  <p class="text-center">In giving your email address you sign up for our newsletter, can unsubscribe at any time.</p>
 
                   <form>
                       <input type="email" placeholder="Your email here"> <input type="submit" value="SEND">
@@ -189,14 +228,14 @@ Having been in the health and wellness industry for over 35 years and spent year
             $('#singleprog').addClass('opennow')
 
             $('.singleprog').on('click', function(){
-            	$('#9monthprog').removeClass('opennow')
+            	$('#ninemonthprog').removeClass('opennow')
             	$('#singleprog').addClass('opennow')
             	return false;
             })
 
-             $('.9monthprog').on('click', function(){
+             $('.ninemonthprog').on('click', function(){
              	$('#singleprog').removeClass('opennow')
-            	$('#9monthprog').addClass('opennow')
+            	$('#ninemonthprog').addClass('opennow')
             	return false;
             })
         })
