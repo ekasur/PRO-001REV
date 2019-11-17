@@ -239,7 +239,7 @@ html,body{
 	vertical-align: middle;
 }
 .wraptextbanner{
-	width: 620px;
+	width: 750px;
 	display: block;
 	margin:0 auto;
 }
@@ -277,7 +277,12 @@ html,body{
 .wraptextbanner h3.titlemorehalf {
     border: none;
     padding: 10px 0;
-    font-size: 32px;
+    font-size: 40px;
+}
+.chooseindividual img,
+.chooseindividualwhite img{
+	display:block;
+	margin:0 auto;
 }
 .wraptextbanner p.psmall{
 	font-size: 14px;
@@ -536,10 +541,10 @@ html,body{
 	background: #e8b578;
 }
 .programone .wrap .imgplace{
-	height: 500px;
+	height: 700px;
 }
 .programone .wrap .wrapinside{
-	padding:0 25%;
+	padding:0 15%;
 }
 .programone .wrap .wrapinside h3{
 	font-size: 40px;
@@ -549,9 +554,12 @@ html,body{
 	color:#7B7B7B;
 }
 .programone .wrap .wrapinside p{
-	font-size: 14px;
+	font-size: 16px;
 	color:#333;
 	margin:0;
+}
+.programone .wrap .wrapinside ul li{
+	font-size:16px;
 }
 .programone .wrap .wrapinside .atag{
 	margin-top:30px;
@@ -569,7 +577,7 @@ html,body{
 	text-transform: uppercase;
 }
 .joinnow{
-	padding:40px 0;
+	padding:100px 0;
 }
 .joinnow h3{
 	font-size: 40px;
