@@ -173,7 +173,7 @@ html,body{
 	height: 300px;
 }
 .morehalf{
-	height: 400px !important;
+	height: 600px !important;
 }
 .morehalfheight{
 	height: 600px;
@@ -269,6 +269,8 @@ html,body{
 	font-size: 40px;
 	text-align: center;
 	color:#fff;
+	font-size: 50px;
+    margin-bottom: 30px;
 }
 .wraptextbanner h3.monthly{
 	border:1px solid #fff;
@@ -285,7 +287,7 @@ html,body{
 	margin:0 auto;
 }
 .wraptextbanner p.psmall{
-	font-size: 14px;
+	font-size: 16px;
 }
 .mcfirst{
 	padding:80px 0;
@@ -336,6 +338,10 @@ html,body{
 }
 .whycustom{
 	padding:150px 0 80px;
+}
+.whycustom img{
+	position: relative;
+	top:150px;
 }
 .why h2{
 	font-size: 80px;
@@ -407,6 +413,10 @@ html,body{
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+}
+.chooseindividualwhite img{
+	position: relative;
+	bottom:150px;
 }
 .secfasting{
 	padding:80px 0;
@@ -650,6 +660,15 @@ html,body{
 }
 .wraptext{
 	padding:40px;
+}
+.chooseindividual .wraptext:before{
+	content: "";
+    position: absolute;
+    width: 2px;
+    background: #212529;
+    height: 400px;
+    top: 0;
+    left: 0;
 }
 .sec2{
 	padding:0 0 60px;
