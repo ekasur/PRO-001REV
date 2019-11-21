@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>PROGRAM - REVIVE</title>
+    <title>REVIVE</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
@@ -26,17 +26,23 @@
         </div>
         <div class="col-lg-8">
           <ul class="mainmenu">
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">PROGRAM</a></li>
-              <li><a href="#">MEMBERSHIP</a></li>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="program.html">PROGRAM</a></li>
+              <li><a href="membership.html">MEMBERSHIP</a></li>
           </ul>
         </div>
         <div class="col-lg-2">
           <ul class="rightmenu">
-              <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+              <li class="usermenumain"><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                  <ul class="usermenuopen">
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                  </ul>
+              </li>
               <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
           </ul>
+          
         </div>
       </div>
     </div>
@@ -120,7 +126,7 @@
 										New line for Now is the time to recharge, reassess and REVIVE.
 										</p>
 									<div class="atag">
-										<a href="#">Learn More</a>
+										<a href="7-day-juice-journey.html">Learn More</a>
 									</div>
 							</div>
 						</div>
@@ -242,56 +248,57 @@
 				<div class="col-lg-8 offset-lg-2">
 					<h3>Join now and get 6 months REVIVE membership for price of 3!</h3>
 					<div class="atag">
-						<a href="#">START NOW</a>
+						<a href="register.html">START NOW</a>
 					</div>
 				</div>
 			</div>
 		</div>
    	</div>
 
-    <div class="newsletter">
-      <div class="container">
-        <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-                <div class="wrapform">
-                  <h3 class="text-center">GET 3 DAYS DETOX for FREE</h3>
-                  <p class="text-center">Lorem ipsum dolorsum Lorem ipsum dolorsum Lorem ipsum dolorsum Lorem ipsum </p>
-
-                  <form>
-                      <input type="email" placeholder="Your email here"> <input type="submit" value="SEND">
-                  </form>
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-12 footer">
-      <div class="row">
-        
-
-        <div class="col-lg-8">
-          <img src="images/logo.jpg" class="img-fluid" alt="REVIVE"><br>
-          <p>&copy; 2019 - REVIVE BALI</p>
-        </div>
-        <div class="col-lg-2">
-          <ul>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">CONTACT</a></li>
-              <li><a href="#">TERMS & CONDITIONS</a></li>
-              <li><a href="#">FAQ</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <ul>
-              <li><a href="#">FACEBOOK</a></li>
-              <li><a href="#">INSTAGRAM</a></li>
-              <li><a href="#">BLOG</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
+	   <div class="newsletter">
+		<div class="container">
+		  <div class="row">
+			  <div class="col-lg-6 offset-lg-3">
+				  <div class="wrapform">
+					<h3 class="text-center">REVIVE Your Inbox</h3>
+					<p class="text-center">Sign up for our newsletter, you can unsubscribe at any time.
+					</p>
+  
+					<form>
+						<input type="email" placeholder="Your email here"> <input type="submit" value="SEND">
+					</form>
+				  </div>
+			  </div>
+		  </div>
+		</div>
+	  </div>
+  
+	  <div class="col-lg-12 footer">
+		<div class="row">
+		  
+  
+		  <div class="col-lg-8">
+			<img src="images/logo.jpg" class="img-fluid" alt="REVIVE"><br>
+			<p>&copy; 2019 - REVIVE BALI</p>
+		  </div>
+		  <div class="col-lg-2">
+			<ul>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="#">CONTACT</a></li>
+				<li><a href="#">TERMS & CONDITIONS</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+		  </div>
+		  <div class="col-lg-2">
+			<ul>
+				<li><a href="#">FACEBOOK</a></li>
+				<li><a href="#">INSTAGRAM</a></li>
+				<li><a href="#">BLOG</a></li>
+			</ul>
+		  </div>
+  
+		</div>
+	  </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -300,6 +307,10 @@
             $('.barmenu a').on('click', function(){
                 $('ul.mainmenu').toggleClass('mainmenuopen');
                 $('ul.rightmenu').toggleClass('rightmenuopen');
+            })
+
+			$('.usermenumain').on('click', function(){
+              $(this).find('.usermenuopen').toggleClass('usermenuopennow');
             })
         })
     </script>

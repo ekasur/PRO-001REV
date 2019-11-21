@@ -44,7 +44,7 @@
 }
 .ninemonthprog:hover{
 	background: #DBDBDB;
-	color:#FFF;
+	color:#000;
 }
 .flowprogram{
 	background:#FFE2D2;
@@ -54,7 +54,10 @@
 	text-align: center;
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
-	color:;
+	font-style: italic;
+	color:#7b7b7b;
+	font-size: 35px;
+	margin:0 0 40px;
 }
 .flowprogram ul{
 	margin:0; padding:0;
@@ -89,13 +92,36 @@
 	font-size: 22px;
 	font-weight: 700;
 }
+.flowprogram ul.whatinluded{
+	width: 100%;
+}
+.flowprogram ul.whatinluded li{
+	background:url(../images/wm.jpg) no-repeat center center;
+	background-size:cover; -webkit-background-size:cover;
+	-moz-background-size:cover; -ms-background-size:cover;
+	border-radius: 0 !important;
+	height:auto;
+	padding: 35px;
+}
+.flowprogram ul.whatinluded li span{
+	background: #83d1d1c2;
+	color:#fff;
+	text-align: center;
+    padding: 20px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+	width: 100%;
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+}
 .aboutquote{
 	padding:80px 0;
 }
 .aboutquote p{
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
-	font-size: 28px;
+	font-size: 30px;
 	text-align: center;
 	color:#fff;
 	line-height: 45px;
@@ -165,6 +191,29 @@ html,body{
 .header ul.rightmenu li a:hover{
 	color:#6dc9c9;
 }
+.header ul.rightmenu li ul.usermenuopen{
+	display: none;
+}
+.header ul.rightmenu li ul.usermenuopennow{
+	display: block;
+    position: absolute;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 13px #333;
+}
+.header ul.rightmenu li ul.usermenuopennow li{
+	display: block;
+	
+}
+.header ul.rightmenu li ul.usermenuopennow li a{
+	padding:5px 10px;
+	display: block;
+}
+.header ul.rightmenu li ul.usermenuopennow li a:hover{
+	background:#f3f3f3;
+}
+
 .banner{
 	width: 100%;
 	height: 100%;
@@ -353,7 +402,7 @@ html,body{
 	content: "";
     width: 300px;
     height: 600px;
-    background: #A5D8D8;
+    background: #6DC9C9;
     position: absolute;
     z-index: -1;
     left: -50px;
@@ -364,7 +413,7 @@ html,body{
 	margin:0 auto;
 }
 .why .labelstep{
-	color:#A5D8D8;
+	color:#6DC9C9;
 }
 .why h3{
 	font-family: 'Playfair Display', serif;
@@ -374,7 +423,7 @@ html,body{
 .why .line{
 	width: 40px;
 	height: 2px;
-	background: #A5D8D8;
+	background: #6DC9C9;
 	margin:20px 0;
 }
 .chooseindividual{
@@ -387,7 +436,7 @@ html,body{
 }
 .chooseindividual .labelstep,
 .chooseindividualwhite .labelstep{
-	color:#A5D8D8;
+	color:#6DC9C9;
 }
 .chooseindividual h3,
 .chooseindividualwhite h3{
@@ -446,8 +495,8 @@ html,body{
 }
 .banner .sosmed{
 	position: absolute;
-	bottom:10px;
-	right:10px;
+    bottom: 40px;
+    right: 20px;
 }
 .banner .sosmed ul{
 	margin:0;
@@ -521,17 +570,18 @@ html,body{
 }
 .programstart h3{
 	text-align: center;
-	margin:15px 0;
-	font-size: 18px;
-	font-weight: 600;
-	color:#000;
+	margin:15px 0 10px;
+	font-size: 16px;
+	font-weight: 700;
+	color:#7B7B7B;
 }
 .programstart p{
 	text-align: center;
-	color:#333;
+	color:#7B7B7B;
 	font-size: 14px;
 	padding:0;
 	margin:0;
+	line-height: 20px;
 }
 .programstart .atag{
 	margin-top:50px;
@@ -565,7 +615,7 @@ html,body{
 }
 .programone .wrap .wrapinside p{
 	font-size: 16px;
-	color:#333;
+	color:#7B7B7B;
 	margin:0;
 }
 .programone .wrap .wrapinside ul li{
@@ -708,6 +758,25 @@ html,body{
 	display: block;
 	width: 250px;
 	text-align: center;
+	position: relative;
+}
+.tabprogram ul li a span{
+	font-size: 27px;
+}
+.tabprogram ul li a label.satu{
+	position: absolute;
+    top: -25px;
+    border-radius: 10px;
+    background: #A5D8D8;
+    font-size: 12px;
+    left: 55px;
+    padding: 10px 15px;
+}
+.tabprogram ul li.customli a{
+	padding: 32px 0 11px;
+}
+.tabprogram ul li a label{
+	cursor:pointer;
 }
 .fourthsection p{
 	color:#7b7b7b;
@@ -899,12 +968,14 @@ html,body{
 	color:#333;
 }
 .bannerlogin form input[type=text],
-.bannerlogin form input[type=password]{
+.bannerlogin form input[type=password],
+.bannerlogin form input[type=email]{
 	width: 100%;
 	height: 45px;
 	border:none;
 	border-radius: 40px;
 	border:1px solid #A5D8D8;
+	outline:0;
 	margin-bottom: 15px;
 	padding:0 15px;
 }
@@ -1006,7 +1077,7 @@ html,body{
 	border-radius: 40px;
 	padding:0 15px;
 	outline: 0;
-	border: 1px solid #909090;
+	border: 1px solid #6DC9C9;
 }
 .newsletter form input[type=submit]{
 	background: #eba95b;

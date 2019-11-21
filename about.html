@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>ABOUT - REVIVE</title>
+    <title>REVIVE</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
@@ -26,17 +26,23 @@
         </div>
         <div class="col-lg-8">
           <ul class="mainmenu">
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">PROGRAM</a></li>
-              <li><a href="#">MEMBERSHIP</a></li>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="program.html">PROGRAM</a></li>
+              <li><a href="membership.html">MEMBERSHIP</a></li>
           </ul>
         </div>
         <div class="col-lg-2">
           <ul class="rightmenu">
-              <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+              <li class="usermenumain"><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                  <ul class="usermenuopen">
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                  </ul>
+              </li>
               <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
           </ul>
+          
         </div>
       </div>
     </div>
@@ -54,7 +60,8 @@
     				<div class="tb">
     					<div class="cell">
     						<div class="wrapblue">
-    							<p>I am an Integrative Holistic Nutrition and Lifestyle educator who helps clients make healthy lifestyle choices.    I motivate and educate individuals to make small but long-lasting transformational changes to feel their best. Through small changes in everyday lifestyle your body, mind and spirit has the capacity to achieve a higher level of health and happiness.</p>
+    							<p>I am an Integrative Holistic Nutrition and Lifestyle educator who helps clients make healthy lifestyle choices.    I motivate and educate individuals to make small but long-lasting transformational changes to feel their best. Through small changes in everyday lifestyle your body, mind and spirit has the capacity to achieve a higher level of health and happiness.
+                  </p>
     						</div>
     						<div class="wrapimgstone" style="background:url('images/about2.jpg') no-repeat center center;background-size: cover;-webkit-background-size: cover;-moz-background-size: cover;-ms-background-size: cover;-o-background-size: cover;"></div>
     					</div>
@@ -67,10 +74,9 @@
     						<div class="wraptransparent">
     							<p>Having a multi disciplinary approach to health and wellness has taught  me that not one approach fits all.  I understand that we are all individuals and bio-individuality is of prime importance when contemplating healing.  Many aspects not just food (although it is a great way to start !) contribute to health and happiness – mental, emotional, physical, financial, social and spiritual factors must be considered.  If you feel a need for change in your current health situation be assured that it is a lot easier than you think.  I will show you that a few simple actions, may make a dramatic difference in your health, your energy and your outlook.<br><br>
 
-I am a graduate of the Institute of Integrative Nutrition (NYC), earned a Degree in Physical and Health Education (UWA), Diploma in Education (UWA)and hold certificates in Reflexology and Therapeutic Massage from The Australian Institute of Complementary Medicine.<br><br>
-
-Having been in the health and wellness industry for over 35 years and spent years travelling the world researching various cultures, looking at health practices and lifestyles, I have moulded my unique philosophy of health and happiness.  I have managed some of the top health retreats on the east and west coasts of Australia,  created my own retreats in Perth, Australia, Yallingup and Margaret River, Australia, and Bali, Indonesia. Now with a following of individual clients, I am now  putting my programs online so you can get access to all the benefits in the comfort of your own home. You will see that small changes do have big results!   
-</p>						
+                    I am a graduate of the Institute of Integrative Nutrition (NYC), earned a Degree in Physical and Health Education (UWA), Diploma in Education (UWA)and hold certificates in Reflexology and Therapeutic Massage from The Australian Institute of Complementary Medicine.<br><br>
+                    
+                    Having been in the health and wellness industry for over 35 years and spent years travelling the world researching various cultures, looking at health practices and lifestyles, I have moulded my unique philosophy of health and happiness.  I have managed some of the top health retreats on the east and west coasts of Australia,  created my own retreats in Perth, Australia, Yallingup and Margaret River, Australia, and Bali, Indonesia. Now with a following of individual clients, I am now  putting my programs online so you can get access to all the benefits in the comfort of your own home. You will see that small changes do have big results!</p>						
 								<div class="atag">
 									<a href="#">ASK ME QUESTION</a>
 								</div>
@@ -103,9 +109,8 @@ Having been in the health and wellness industry for over 35 years and spent year
 					    <a class="nav-link singleprog" href="#">Single <br>Program</a>
 					  </li>
 					  <li>&nbsp;</li>
-					  <li class="nav-item">
-					    <a class="nav-link ninemonthprog" href="#">PAY ONLY 3 MONTH <br>FOR 6 MONTH
-</a>
+					  <li class="nav-item customli">
+					    <a class="nav-link ninemonthprog" href="#"><label class="satu">PAY ONLY 3 MONTH <br>FOR 6 MONTH</label> <label class="dua">All Program <br><span><sup>$</sup>9<sup>.95</sup> </span> / Monthly</label></a>
 					  </li>
 					</ul>
     			</div>
@@ -118,7 +123,6 @@ Having been in the health and wellness industry for over 35 years and spent year
     	<div class="container">
     		<div class="row">
     			<div class="col-lg-12">
-    				<h3>SINGLE PROGRAM</h3>
 
 			    	<ul>
 			    		<li><span>7 Days Juice Journey</span><label>AUD $24.<sup>50</sup></label></li>
@@ -136,10 +140,28 @@ Having been in the health and wellness industry for over 35 years and spent year
     	<div class="container">
     		<div class="row">
     			<div class="col-lg-12">
-    				<h3>ALL PROGRAMS</h3>
+    				<h3>What's Included,</h3>
 
-			    	<ul>
-			    		<li><span>7 Days Juice Journey</span><label>AUD $24.<sup>50</sup></label></li>
+			    	<ul class="whatinluded">
+              <li><span>All 4 guided step by step programmers to take your health and happinesss to the next level</span></span></li>
+              
+              <li><span>Monthly challenges</span></li>
+
+              <li><span>Ruizzes</span></li>
+
+              <li><span>Interviews with industry leaders</span></li>
+
+              <li><span>Recipes - practical and easy to follow</span></li>
+
+              <li><span>Tips and tricks to enhance your journey with action step and checklist</span></li>
+
+              <li><span>Guides on movement, joy, creativity, finances, careers, education, home, environment, relationships, yoga, breathing techniques, and more.</span></li>
+
+              <li><span>Emails for members only with cutting edge research and studies</span></li>
+
+              <li><span>Emails for members only with cutting edge research and studies</span></li>
+
+              <li><span>Private facebook page to private trials, tribulations, success and ask questions</span></li>
 			    	</ul>
     			</div>
     		</div>
@@ -172,13 +194,14 @@ and lifestyle coach in your own home, REVIVE'S programs will guide your health a
 
 
 
-    <div class="newsletter">
+     <div class="newsletter">
       <div class="container">
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
                 <div class="wrapform">
-                  <h3 class="text-center">GET 3 DAYS DETOX for FREE</h3>
-                  <p class="text-center">In giving your email address you sign up for our newsletter, can unsubscribe at any time.</p>
+                  <h3 class="text-center">REVIVE Your Inbox</h3>
+                  <p class="text-center">Sign up for our newsletter, you can unsubscribe at any time.
+                  </p>
 
                   <form>
                       <input type="email" placeholder="Your email here"> <input type="submit" value="SEND">
@@ -199,7 +222,7 @@ and lifestyle coach in your own home, REVIVE'S programs will guide your health a
         </div>
         <div class="col-lg-2">
           <ul>
-              <li><a href="#">ABOUT</a></li>
+              <li><a href="about.html">ABOUT</a></li>
               <li><a href="#">CONTACT</a></li>
               <li><a href="#">TERMS & CONDITIONS</a></li>
               <li><a href="#">FAQ</a></li>
@@ -237,6 +260,10 @@ and lifestyle coach in your own home, REVIVE'S programs will guide your health a
              	$('#singleprog').removeClass('opennow')
             	$('#ninemonthprog').addClass('opennow')
             	return false;
+            })
+
+            $('.usermenumain').on('click', function(){
+              $(this).find('.usermenuopen').toggleClass('usermenuopennow');
             })
         })
     </script>
